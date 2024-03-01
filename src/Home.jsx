@@ -3,16 +3,16 @@ import { FaBars } from "react-icons/fa";
 
 const Home = () => {
   const { openSidebar, openModal } = useGlobalContext();
+
   return (
     <main>
-      <button className="sidebar-toggle" onClick={openSidebar}>
+      <button onClick={openSidebar} className="sidebar-toggle">
         <FaBars />
       </button>
-      <button className="btn" onClick={openModal}>
+      <button onClick={openModal} className="btn">
         show modal
       </button>
     </main>
   );
 };
-
 export default Home;

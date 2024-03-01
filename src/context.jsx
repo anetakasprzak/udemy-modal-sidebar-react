@@ -9,15 +9,12 @@ export const AppProvider = ({ children }) => {
   const openSidebar = () => {
     setIsSidebarOpen(true);
   };
-
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
-
   const openModal = () => {
     setIsModalOpen(true);
   };
-
   const closeModal = () => {
     setIsModalOpen(false);
   };
